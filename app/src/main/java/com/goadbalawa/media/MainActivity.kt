@@ -13,6 +13,7 @@ import androidx.compose.ui.unit.dp
 
 class MainActivity: ComponentActivity() {
  override fun onCreate(state: Bundle?) { super.onCreate(state); setContent { App() } }
+ @OptIn(ExperimentalMaterial3Api::class)
  @Composable fun App() {
   MaterialTheme(colorScheme=lightColorScheme(primary=Color(0xFF7B1FA2))) {
    Scaffold(topBar={ TopAppBar(title={Text("Goad Balawa Media")}) }) { p ->
