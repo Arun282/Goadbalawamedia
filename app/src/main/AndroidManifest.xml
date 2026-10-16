@@ -3,8 +3,7 @@
     <application
         android:usesCleartextTraffic="false"
         android:theme="@style/Theme.GoadBalawaMedia"
-        android:label="Haryana State Zone"
-        android:usesCleartextTraffic="false">
+        android:label="Haryana State Zone">
         <activity
             android:name=".MainActivity"
             android:exported="true">
